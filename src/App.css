@@ -29,7 +29,7 @@
   justify-content: center;
 }
 header {
-  background-color: #262829aa;
+  background-color: rgba(38, 40, 41, 0.467);
   height: 2rem;
   font-size: 1.2rem;
   color: aliceblue;
@@ -39,6 +39,7 @@ header {
   width: 20rem;
   padding: 1em;
   background-color: rgba(100, 108, 255, 0.367);
+  border-radius: 1rem;
 }
 .card img {
   width: 100%;
