@@ -1,7 +1,7 @@
 const Puntaje = ({ movie }) => {
   return (
     <div className="puntaje">
-      <small>{movie.overview.slice(0, 140)}...</small>
+      <small>Puntaje: {movie.vote_average}</small>
     </div>
   );
 };
