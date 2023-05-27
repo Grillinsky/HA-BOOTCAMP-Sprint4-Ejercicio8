@@ -8,16 +8,16 @@ function App() {
     const fetchMoviesData = async () => {
       try {
         const movieUrls = [
-          "https://api.themoviedb.org/3/movie/315837?api_key=7ecebdcca2c829fe1a4ff9794da57479",
-          "https://api.themoviedb.org/3/movie/667538?api_key=7ecebdcca2c829fe1a4ff9794da57479",
-          "https://api.themoviedb.org/3/movie/152601?api_key=7ecebdcca2c829fe1a4ff9794da57479",
+          "https://api.themoviedb.org/3/movie/315837?",
+          "https://api.themoviedb.org/3/movie/667538?",
+          "https://api.themoviedb.org/3/movie/152601?",
         ];
 
         const requests = movieUrls.map((url) =>
           axios.get(url, {
             headers: {
               accept: "application/json",
-              Authorization: "Bearer 7ecebdcca2c829fe1a4ff9794da57479",
+              Authorization: "Bearer #myappikey",
             },
           })
         );
